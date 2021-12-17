@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:wght@300&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center ;
+}
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#area_cabecalho img{
+	width: 250px;
+	border-radius: 5px;
+}
+#area_cabecalho{ 
+	background-color: #F7A072;
+}
+#menu{
+    text-align: center;
+}
+#menu a{
+    padding: 8px 12px;
+}
+#menu a:link, a:visited{
+    text-decoration: none;
+    color: #1B5299;
+}
+#menu a:hover{
+    background-color: #0FA3B1;
+}
+#alimento{
+    display: flex;
+}
+#alimento img{
+    width: 40%;
+    margin: 10px auto; 
+}
+#transtornos{
+    display: flex;
+}
+#transtornos img{
+    width: 30%;
+    margin: 10px auto;
+}
+.paginaprincipal{
+    margin: 10px;
+}
+.paginaprincipal img{ 
+ 	width: 100%;
+}
+.texto{
+    text-align: justify;
+    margin: 10px;
+}
+.rodape{
+ 	background-color: #F7A072;
+ 	text-align: center;
+ 	padding: 10px;
+}
+.img{
+ 	text-align: center;
+}
+.img img{
+ 	width: 60%;
+}
